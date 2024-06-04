@@ -17,7 +17,7 @@
 
         // Calculations
         const calculate = () => {
-            const inputValue = parseFloat(document.getElementById("input").value);
+            const inputValue = parseFloat(document.getElementById("input").value);//регорд
             if (!isNaN(inputValue)) {
                 const sinResult = sin(inputValue);
                 const cosResult = cos(inputValue);
